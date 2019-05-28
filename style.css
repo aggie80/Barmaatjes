@@ -1,0 +1,164 @@
+body, html {
+  background-color: D0D3D0;
+  background-repeat: no-repeat;
+  width: auto;
+  font-family: 'Comfortaa', cursive, Arial;
+}
+
+.parallax {
+  background-image:url(Images/Barmaatjes_3.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #D0D3D4;
+}
+
+.parallax_overlay {
+  height: auto;
+  line-height: 400px;
+  width: auto;
+  display: flow-root;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.banner {
+  background-color:#D0D3D4;
+  height: 500px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+#square1 {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: border;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial fantasy;
+  font-size: 45px;
+  color: white;
+  padding: 15px;
+  margin: 25px;
+}
+
+#square2 {
+  width: 300px;
+  height: 400px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial fantasy;
+  font-size: 45px;
+  color: white;
+  padding: 15px;
+  margin-left: auto;
+}
+
+#square3 {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: border;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial fantasy;
+  font-size: 45px;
+  color: white;
+  padding: 15px;
+  margin: 25px;
+}
+
+.second {
+  background-image: url("Images/Barmaatjes_5.jpg");
+  min-height: 500px;
+  max-width: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.third {
+  background-image: url("Images/Barmaatjes_6.jpg");
+  min-height: 500px;
+  max-width: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#right {
+  float: right;
+  width: 60%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+#left {
+  float: left;
+  width: 60%;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+h1 {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  color: #D0D3D1;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+  }
+
+p {
+  text-align: left;
+  text-shadow: 5px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: black;
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
